@@ -1,0 +1,16 @@
+db:
+  image: docker.saddleback.com/postgres:frozen
+  hostname: postgres
+  privileged: true
+  environment:
+   POSTGRES_PASSWORD: "33Colonies"
+   CHURCH_ID: "17"
+   CAMPUS_ID: "93"
+app:
+  image: docker.saddleback.com/cm-core:1.0
+  hostname: cm-core
+  links:
+   - db:postgres
+  ports:
+   - 5002:5002
+   - 44319:44319
