@@ -41,5 +41,7 @@ After getting the software installed you'll need to do the following to begin to
 2. After you've been added to the private repository, you'll need to `fork` the repository.
 3. Now you'll need to `clone` your forked repository to your local machine. You can use the Github client for example to do this.
 4. Open a command prompt/the console and navigate to the directory where you cloned the repository.
-5. Assuming `node -v` returns valid data, type `npm install`. (You should see 
-6. 
+5. Assuming `node -v` returns valid data, type `npm install`. This will install all dependencies.
+6. Now type `npm start` to run the application. 
+
+When the above steps are completed, you should be able to go to `http://localhost:8080` to see the application running. If that doesn't work, go to the Troubleshooting section.
