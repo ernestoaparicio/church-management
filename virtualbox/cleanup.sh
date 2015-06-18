@@ -6,3 +6,4 @@ rm -rf /usr/share/locale/{haw,he,hi,hr,hu,hy,id,is,it,ja,ka,kk,km,kn,ko,kok,ku,k
 rm -rf /usr/share/locale/{mk,ml,mn,mr,ms,mt,nb,ne,nl,nn,no,nso,oc,or,pa,pl,ps,pt,pt_BR,qu,ro,ru}
 rm -rf /usr/share/locale/{rw,si,sk,sl,so,sq,sr,sr*latin,sv,sw,ta,te,th,ti,tig,tk,tl,tr,tt,ur,urd}
 rm -rf /usr/share/locale/{ve,vi,wa,wal,wo,xh,zh,zh_HK,zh_CN,zh_TW,zu}
+rm -rf /usr/share/locale/{crh, ia, nds, ug, uk}
