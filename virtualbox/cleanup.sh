@@ -15,4 +15,4 @@ rm -rf /usr/share/locale/{rw,si,sk,sl,so,sq,sr,sr*latin,sv,sw,ta,te,th,ti,tig,tk
 rm -rf /usr/share/locale/{ve,vi,wa,wal,wo,xh,zh,zh_HK,zh_CN,zh_TW,zu}
 rm -rf /usr/share/locale/{crh, ia, nds, ug, uk}
 
-aptitude -y purge libgl1-mesa-dri
+apt-get -y purge libgl1-mesa-dri
