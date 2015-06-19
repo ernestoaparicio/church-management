@@ -16,3 +16,10 @@ rm -rf /usr/share/locale/{ve,vi,wa,wal,wo,xh,zh,zh_HK,zh_CN,zh_TW,zu}
 rm -rf /usr/share/locale/{crh, ia, nds, ug, uk}
 
 apt-get -y purge libgl1-mesa-dri
+
+apt-get clean
+
+dd if=/dev/zero of=/EMPTY bs=1M
+rm -f /EMPTY
+
+cat /dev/null > ~/.bash_history && history -c && exit
