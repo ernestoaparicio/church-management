@@ -1,5 +1,9 @@
 # Church Management
 
+## Table of Contents
+1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
+2. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
+
 ## Requirements
 Please install the following to work on church management:
 
