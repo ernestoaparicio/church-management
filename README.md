@@ -2,7 +2,9 @@
 
 ## Table of Contents
 1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
-2. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
+2. <a href=""></a>
+3. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
+4. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
 
 ## Requirements
 Please install the following to work on church management:
@@ -13,6 +15,24 @@ Please install the following to work on church management:
 4. Python 2.7 https://www.python.org/download/releases/2.7/ (For Windows users only. OS X and Linux should have Python already.)
 
 The first two pieces of software allow you to run a local virtual machine (VM). The third piece of software will allow you to build the front end software.
+
+## Installing Environment
+To get a local development environment going, we will first need to download our command and control executable.
+
+For Windows users, paste this link into a browser:
+
+  https://github.com/saddlebackdev/church-management/raw/master/windows-client/cm-control.exe
+  
+For OS X users, paste this link into a browser (or use wget):
+
+  https://github.com/saddlebackdev/church-management/raw/master/osx-client/cm-control
+  
+After downloading the command and control application, you'll need to email <a href="mailto:rmeyer@saddleback.com">rmeyer@saddleback.com</a> with your public IP address so we can add it to our whitelist. The IP should be available from the command and control menu.
+
+Once you are whitelisted, you can select 'i' from the menu to install the virtual machine.
+
+If everything goes well, after 10-15 minutes, you should have the API and database running locally inside of a VirtualBox VM.
+  
 
 ## Architecture
 The church management product is a single page application (SPA) that is primarily written in Javascript. The SPA communicates with a RESTful API to read and write data. All data is persisted in a database.
