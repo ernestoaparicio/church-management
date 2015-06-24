@@ -17,7 +17,7 @@ Please install the following to work on church management:
 The first two pieces of software allow you to run a local virtual machine (VM). The third piece of software will allow you to build the front end software.
 
 ## Installing Environment
-To get a local development environment going, we will first need to download our command and control executable.
+To get a local development environment going, we will first need to download the command and control executable.
 
 For Windows users, paste this link into a browser:
 
