@@ -80,8 +80,10 @@ When the above steps are completed, you should be able to go to `http://localhos
 Below are links to videos and articles that will help get you up to speed. No fluff has been included. Each link is worth the time.
 
 **Git**
+
 1. <a href="https://try.github.io/levels/1/challenges/1">Learn Git in 15 Minutes</a>
 
 **React**
+
 1. <a href="https://facebook.github.io/react/docs/getting-started.html">Getting Started</a>
 2. <a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introduction to react.js</a>
