@@ -12,7 +12,6 @@ Please install the following to work on church management:
 1. VirtualBox https://www.virtualbox.org/
 2. Vagrant https://www.vagrantup.com/
 3. Node.js https://nodejs.org/
-4. Python 2.7 https://www.python.org/download/releases/2.7/ (For Windows users only. OS X and Linux should have Python already.)
 
 The first two pieces of software allow you to run a local virtual machine (VM). The third piece of software will allow you to build the front end software.
 
