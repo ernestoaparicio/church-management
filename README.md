@@ -6,7 +6,7 @@
 3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
 4. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
 5. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
-6. <a href="">Learning Material</a>
+6. <a href="https://github.com/saddlebackdev/church-management/blob/master/README.md#learning-material">Learning Material</a>
 
 ## Requirements
 Please install the following to work on church management:
