@@ -6,6 +6,7 @@
 3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
 4. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
 5. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
+6. <a href="">Learning Material</a>
 
 ## Requirements
 Please install the following to work on church management:
@@ -74,3 +75,11 @@ After getting the software installed you'll need to do the following to begin to
 6. Now type `npm start` to run the application. 
 
 When the above steps are completed, you should be able to go to `http://localhost:8080` to see the application running. If that doesn't work, go to the Troubleshooting section.
+
+## Learning Material
+The two main technologies we use in the front end codebase are React and Flux. React is the most important to learn.
+
+Some helpful links to get up to speed:
+
+1. <a href="https://facebook.github.io/react/docs/getting-started.html">Getting Started</a>
+2. <a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introduction to react.js</a>
