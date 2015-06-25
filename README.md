@@ -4,7 +4,7 @@
 1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
 2. <a href="https://github.com/saddlebackdev/church-management#recommended-tools">Recommended Tools</a>
 3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
-4. <a href="">Installation Troubleshooting</a>
+4. <a href="https://github.com/saddlebackdev/church-management#installation-troubleshooting">Installation Troubleshooting</a>
 5. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
 6. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
 7. <a href="https://github.com/saddlebackdev/church-management/blob/master/README.md#learning-material">Learning Material</a>
