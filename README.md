@@ -4,9 +4,10 @@
 1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
 2. <a href="https://github.com/saddlebackdev/church-management#recommended-tools">Recommended Tools</a>
 3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
-4. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
-5. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
-6. <a href="https://github.com/saddlebackdev/church-management/blob/master/README.md#learning-material">Learning Material</a>
+4. <a href="">Installation Troubleshooting</a>
+5. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
+6. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
+7. <a href="https://github.com/saddlebackdev/church-management/blob/master/README.md#learning-material">Learning Material</a>
 
 ## Requirements
 Please install the following to work on church management:
@@ -38,6 +39,13 @@ Once you are whitelisted, you can select 'i' from the menu to install the virtua
 
 If everything goes well, after 10-15 minutes, you should have the API and database running locally inside of a VirtualBox VM.
   
+## Installation Troubleshooting
+
+**Problem:** The virtual machine won't start!
+
+**Answer**
+
+If you have the files needed to start the virtual machine (Vagrantfile, debian-jessie.box), then you can alternatively run `vagrant up` without the cm-control executable.
 
 ## Architecture
 The church management product is a single page application (SPA) that is primarily written in Javascript. The SPA communicates with a RESTful API to read and write data. All data is persisted in a database.
