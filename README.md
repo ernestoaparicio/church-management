@@ -23,22 +23,33 @@ The first two pieces of software allow you to run a local virtual machine (VM). 
 1. Sublime Text. <a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>. Great editor for Javascript codebases.
 
 ## Installing Environment
-To get a local development environment going, we will first need to download the command and control executable.
+Follow the steps below to set up your local development environment:
 
-For Windows users, paste this link into a browser:
+1. Download command and control executable.
 
-  https://github.com/saddlebackdev/church-management/raw/master/windows-client/cm-control.exe
-  
-For OS X users, paste this link into a browser (or use wget):
+    a. **Windows**: <a href="https://github.com/saddlebackdev/church-management/raw/master/windows-client/cm-control.exe">cm-control.exe</a>
+    
+    b. **OS X**: <a href="https://github.com/saddlebackdev/church-management/raw/master/osx-client/cm-control">cm-control</a>
 
-  https://github.com/saddlebackdev/church-management/raw/master/osx-client/cm-control
-  
-After downloading the command and control application, you'll need to email <a href="mailto:rmeyer@saddleback.com">rmeyer@saddleback.com</a> with your public IP address so we can add it to our whitelist. The IP should be available from the command and control menu.
+2. Email us your public IP address. 
 
-Once you are whitelisted, you can select 'i' from the menu to install the virtual machine.
+    ```
+    ...
+    == Church Management Command and Control ====
 
-If everything goes well, after 10-15 minutes, you should have the API and database running locally inside of a VirtualBox VM.
-  
+    My public IP address: 70.183.18.4
+    ...
+    ```    
+    
+3. Select **i** from the command and control menu
+
+    ```
+    ...
+    Menu:
+    [ i ]: Installation of church management virtual machine
+    ...
+    ```    
+
 ## Installation Troubleshooting
 
 **Problem:** The virtual machine won't start!
