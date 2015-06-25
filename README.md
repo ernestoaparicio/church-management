@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
-2. <a href="">Recommended Tools</a>
+2. <a href="https://github.com/saddlebackdev/church-management#recommended-tools">Recommended Tools</a>
 3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
 4. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
 5. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
