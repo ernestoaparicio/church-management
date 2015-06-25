@@ -77,9 +77,11 @@ After getting the software installed you'll need to do the following to begin to
 When the above steps are completed, you should be able to go to `http://localhost:8080` to see the application running. If that doesn't work, go to the Troubleshooting section.
 
 ## Learning Material
-The two main technologies we use in the front end codebase are React and Flux. React is the most important to learn.
+Below are links to videos and articles that will help get you up to speed. No fluff has been included. Each link is worth the time.
 
-Some helpful links to get up to speed:
+**Git**
+1. <a href="https://try.github.io/levels/1/challenges/1">Learn Git in 15 Minutes</a>
 
+**React**
 1. <a href="https://facebook.github.io/react/docs/getting-started.html">Getting Started</a>
 2. <a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introduction to react.js</a>
