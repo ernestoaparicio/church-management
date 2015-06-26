@@ -1,14 +1,62 @@
 # Church Management
 
+## Table of Contents
+1. <a href="https://github.com/saddlebackdev/church-management#requirements">Requirements</a>
+2. <a href="https://github.com/saddlebackdev/church-management#recommended-tools">Recommended Tools</a>
+3. <a href="https://github.com/saddlebackdev/church-management#installing-environment">Installing Environment</a>
+4. <a href="https://github.com/saddlebackdev/church-management#installation-troubleshooting">Installation Troubleshooting</a>
+5. <a href="https://github.com/saddlebackdev/church-management#architecture">Architecture</a>
+6. <a href="https://github.com/saddlebackdev/church-management#front-end-development">Front End Development</a>
+7. <a href="https://github.com/saddlebackdev/church-management/blob/master/README.md#learning-material">Learning Material</a>
+
 ## Requirements
 Please install the following to work on church management:
 
-1. VirtualBox https://www.virtualbox.org/
-2. Vagrant https://www.vagrantup.com/
-3. Node.js https://nodejs.org/
-4. Python 2.7 https://www.python.org/download/releases/2.7/ (For Windows users only. OS X and Linux should have Python already.)
+1. VirtualBox. <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>
+2. Vagrant. <a href="https://www.vagrantup.com/">https://www.vagrantup.com/</a>
+3. Node.js. <a href="https://nodejs.org/">https://nodejs.org/</a>
 
 The first two pieces of software allow you to run a local virtual machine (VM). The third piece of software will allow you to build the front end software.
+
+## Recommended Tools
+
+1. Sublime Text. <a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>. Great editor for Javascript codebases.
+
+## Installing Environment
+Follow the steps below to set up your local development environment:
+
+1. Download command and control executable.
+
+    a. **Windows**: <a href="https://github.com/saddlebackdev/church-management/raw/master/windows-client/cm-control.exe">cm-control.exe</a>
+    
+    b. **OS X**: <a href="https://github.com/saddlebackdev/church-management/raw/master/osx-client/cm-control">cm-control</a>
+
+2. Email us your public IP address. 
+
+    ```
+    ...
+    == Church Management Command and Control ====
+
+    My public IP address: 70.183.18.4
+    ...
+    ```    
+    
+3. Select **i** from the command and control menu
+
+    ```
+    ...
+    Menu:
+    [ i ]: Installation of church management virtual machine
+    ...
+    ```    
+
+## Installation Troubleshooting
+
+**Problem:** The virtual machine won't start!
+
+**Answer**
+
+If you have the files needed to start the virtual machine (Vagrantfile, debian-jessie.box), then you can alternatively run `vagrant up` without the cm-control executable.
 
 ## Architecture
 The church management product is a single page application (SPA) that is primarily written in Javascript. The SPA communicates with a RESTful API to read and write data. All data is persisted in a database.
@@ -46,3 +94,15 @@ After getting the software installed you'll need to do the following to begin to
 6. Now type `npm start` to run the application. 
 
 When the above steps are completed, you should be able to go to `http://localhost:8080` to see the application running. If that doesn't work, go to the Troubleshooting section.
+
+## Learning Material
+Below are links to videos and articles that will help get you up to speed. No fluff has been included. Each link is worth the time.
+
+**Git**
+
+1. <a href="https://try.github.io/levels/1/challenges/1">Learn Git in 15 Minutes</a>
+
+**React**
+
+1. <a href="https://facebook.github.io/react/docs/getting-started.html">Getting Started</a>
+2. <a href="https://www.youtube.com/watch?v=XxVg_s8xAms">Introduction to react.js</a>
